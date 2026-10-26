@@ -438,6 +438,12 @@ html {
     letter-spacing: -0.5px;
 }
 
+.section-main-title.title-long {
+    white-space: normal !important;
+    text-wrap: balance;
+    font-size: clamp(1.4rem, 6vw, 3rem) !important;
+}
+
 .bg-hologram-dark .section-main-title {
     color: #ffffff !important;
 }
