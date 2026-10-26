@@ -723,3 +723,15 @@ html {
     animation: badgeBounce 0.7s ease infinite;
 }
 
+@media (max-width: 480px) {
+    .header { padding: 18px 5%; min-height: 70px; }
+    .header.scrolled { padding: 8px 5%; }
+
+    .brand-container { gap: 8px; min-width: 0; }
+    .logo-img { height: 36px; }
+    .logo-text { font-size: 1.25rem; }
+    .logo-subtext { font-size: 0.5rem; letter-spacing: 1px; }
+
+    .nav-right-controls { gap: 10px; flex-shrink: 0; }
+    .cart-icon-img { width: 26px; height: 26px; }
+}
